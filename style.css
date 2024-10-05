@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Roboto";
+  font-weight: 900;
+}
+.link-style {
+  text-decoration: none;
+  color: black;
+  margin-inline: 2px;
+  font-weight: 600;
+  white-space: nowrap;
+  font-size: 0.7rem;
+}
+
+.link-style:hover {
+  text-decoration: underline;
+  text-decoration-color: #583b9c;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
+}
+.font-size {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+.input-placeholder:hover {
+  border-color: #1da1f2;
+  border-width: 2px;
+}
+.input-placeholder {
+  border-radius: 6px;
+  width: 100%;
+}
+.login-button {
+  border-radius: 76px;
+  color: white;
+  width: 100%;
+}
+.underline {
+  color: rgba(29, 161, 242, 1);
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: "Segoe UI";
+  text-decoration: none;
+}
+.loginmain {
+  width: 450px;
+  height: 476px;
+  top: 302px;
+  left: 735px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.signup-main {
+    width: 600px;
+    height: 100%;
+    padding-block: 5%;
+    
+    gap: 0px;
+    opacity: 0px;
+    
+}

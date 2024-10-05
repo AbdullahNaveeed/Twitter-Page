@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Twitter Create Account</title>
+  </head>
+  <body>
+    <div class="flex justify-center items-center min-h-screen w-full h-full">
+      <div
+        class="signup-main m-4 loginmain flex text-center justify-center items-start flex-col w-[750px] h-[800px] border-[1px]"
+      >
+        <img class="mb-12 mx-auto text-center" src="assets/twitter-logo.png" alt="twitter-logo" />
+        <p class="font-bold text-2xl pb-2">Create an account</p>
+        <input
+          class="input-placeholder text-sm p-3 border border-gray-200 max-w-[24rem] w-full min-w-[16rem] mt-4 focus:outline-none focus:ring-2 focus:ring-[#1DA1F2] focus:border-transparent hover:border-2 hover:border-[#1DA1F2] ease-in-out"
+          type="text"
+          placeholder="Name"
+        />
+        <input
+          class="input-placeholder text-sm p-3 border border-gray-200 max-w-[24rem] w-full min-w-[16rem] mt-4 focus:outline-none focus:ring-2 focus:ring-[#1DA1F2] focus:border-transparent hover:border-2 hover:border-[#1DA1F2] ease-in-out"
+          type="text"
+          placeholder="Phone number"
+        />
+        <p class="text-blue-700 py-4 hover:underline decoration-8">Use email</p>
+        <p class="text-black-900 font-bold pb-2 hover:underline decoration-8 hover:decoration-blue-900 ">Date of birth</p>
+        <p class="items-start text-base">
+          Facilisi sem pulvinar velit nunc, gravida scelerisque amet nibh sit.
+          Quis bibendum ante phasellus metus, magna lacinia sed augue. Odio enim
+          nascetur leo mauris vel eget. Pretium id ullamcorper blandit viverra
+          dignissim eget tellus. Nibh mi massa in molestie a sit. Elit congue.
+        </p>
+        <div class="flex justify-start items-start text-start">
+          <div class="w-full mx-2 max-w-xs mx-auto mt-4">
+            <select
+              class="w-full p-2 mx-2 border-2 border-gray-300 rounded-lg text-sm focus:outline-none hover:border-blue-600 hover:border-2 focus:ring-2 focus:ring-[#1DA1F2] focus:border-transparent"
+            >
+              <option value="" disabled selected>Month</option>
+              <!-- Default option -->
+              <option value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="August">August</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
+            </select>
+          </div>
+          <div class="w-52 mx-4 max-w-xs mt-4">
+            <select
+              class="w-full mx-2 p-2 border-2 border-gray-300 rounded-lg text-sm focus:outline-none hover:border-blue-600 hover:border-2 focus:ring-2 focus:ring-[#1DA1F2] focus:border-transparent"
+            >
+              <option value="" disabled selected>Day</option>
+              <!-- Default option -->
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+            </select>
+          </div>
+          <div class="max-w-xs mx-4 mt-4">
+            <select
+              class="w-28 p-2 border-2 border-gray-300 rounded-lg text-sm focus:outline-none hover:border-blue-600 hover:border-2 focus:ring-2 focus:ring-[#1DA1F2] focus:border-transparent"
+            >
+              <option value="" disabled selected>Year</option>
+              <!-- Default option -->
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+            </select>
+          </div>
+        </div>
+        <button
+          class="login-button mt-12 bg-blue-500 py-2 px-8 text-white font-semibold rounded-3xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-200"
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
