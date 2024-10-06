@@ -2,6 +2,12 @@
   font-family: "Roboto";
   font-weight: 900;
 }
+/* body ,html{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+} */
 .link-style {
   text-decoration: none;
   color: black;
