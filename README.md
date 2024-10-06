@@ -1,6 +1,6 @@
 # Twitter UI Clone - Figma Design to Code
 
-This project is a translation of a Figma design into a fully functional user interface using HTML, CSS, and JavaScript. The design includes three key pages: the homepage, login page, and sign-up page of Twitter. The goal is to closely replicate the design with responsive and interactive elements.
+This project is a translation of a Figma design into a fully functional user interface using HTML, CSS, and Tailwind CSS v3.0. The design includes three key pages: the homepage(Dashboard Page), login page, and sign-up page of Twitter. The goal is to closely replicate the design with responsive and interactive elements.
 
 ## Features
 - **Responsive Layout**: Ensures the design adapts to different screen sizes (desktop, tablet, and mobile).
@@ -16,7 +16,7 @@ This project is a translation of a Figma design into a fully functional user int
 ## Technologies Used
 - **HTML5**: Structure and semantic layout of the pages.
 - **CSS3**: Styling and responsive design implementation.
-- **Tailwind CSS v3.0**: Basic interactivity and form validation.
+- **Tailwind CSS v3.0**: Styling and responsive design implementation.
 
 ## Installation
 To run the project locally:
